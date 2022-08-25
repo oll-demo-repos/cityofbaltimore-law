@@ -1,0 +1,69 @@
+{
+ "signatures": [
+  {
+   "keyid": "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b",
+   "sig": "91af54e165aec2ceb261cb5415b9764c3fc3da54d908ac9d47b7f2d6aa11305b706ca4ef3aeef865f13624f895a29ae102c11673261710d69889744aa26ca10fb8be67f69ddbd40d0de5210a2aab2da0578a51f10e9c0fac2aa7905e1473e3986658bff05bface86ec1201de3f2c8bbfa7f8e373e622a1216da1fa6b90297a8e879badea4e8c47020ffc22516239f9429a188d78fcc50de0649ac68bd2eb5df146b9164efe1858579336bcdc782e8275aa14d17f262fe8532ec4cca5cf69e55b9884742d0dc5bd96f2a36bec4c17f2ea3b1557afb5bb59acba4126ef851845ab3bb4f977bdd596faa809977b07f582a70fab19e3c47beccde9a3713194425886"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b": {
+     "keyid_hash_algorithms": [
+      "sha256",
+      "sha512"
+     ],
+     "keytype": "rsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1heRzGMtHO9WtduHG+ur\ntYbkLoQzr3NkNAEGALqL/JGiIhsZGlzfWVB7r9zawmW7bs5B0vB9iETgPnPao9QD\n+SVVJIscMoQfKP7hcQuXOxpHG7aUaZrLNTqyvGezCkfKZeGCVtmKZynKsZe2QUaN\nzvx9gKdiibAGvR62Co2KjKmPidssL7qxc0vLbq3cZd+xjDhdK/3i74BtfzxqFayy\nQ1pDBEMDs++Edm17cbVD4OwRMF9nod6vNPgGHC0ljBiSohs/BIAxxGTOboUtAMv5\nSnzMxeQhuKQoAJsJoi9+ea+voG/Sd9WJxvtwH85qImCLPD1XL6kfhNIdfJjFol0U\n6QIDAQAB\n-----END PUBLIC KEY-----"
+     },
+     "scheme": "rsa-pkcs1v15-sha256"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "law",
+     "paths": [
+      "cityofbaltimore/law-xml",
+      "cityofbaltimore/law-html",
+      "cityofbaltimore/law-xml-codified",
+      "capstone",
+      "branch"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "docs",
+     "paths": [
+      "cityofbaltimore/law-docs"
+     ],
+     "terminating": true,
+     "threshold": 1
+    },
+    {
+     "keyids": [
+      "c98e4b4a448749da3fc2c74cbec3d5f898a3e2ed866357a9a196f90957e2837b"
+     ],
+     "name": "assets",
+     "paths": [
+      "openlawlibrary/law-static-assets"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2022-11-25T21:25:29Z",
+  "spec_version": "1.0",
+  "targets": {},
+  "version": 1
+ }
+}
