@@ -1,0 +1,58 @@
+{
+    "repositories": {
+        "cityofbaltimore/law-docs": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityofbaltimore-law-docs.git"
+            ],
+            "custom": {
+                "allow-unauthenticated-commits":true,
+                "serve":"latest",
+                "location_regex":"~/.*\\.pdf$"
+            }
+        },
+        "cityofbaltimore/law-xml": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityofbaltimore-law-xml.git"
+            ],
+            "custom": {
+                "type":"xml",
+                "allow-unauthenticated-commits":true,
+                "serve":"latest",
+                "serve-prefix":"_uncodified_xml"
+            }
+        },
+        "cityofbaltimore/law-html": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityofbaltimore-law-html.git"
+            ],
+            "custom": {
+                "preview":"git@github.com:oll-demo-repos/cityofbaltimore-law-html-preview.git",
+                "type":"html",
+                "serve":"historical",
+                "location_regex":"/"
+            }
+        },
+        "cityofbaltimore/law-xml-codified": {
+            "urls": [
+                "git@github.com:oll-demo-repos/cityofbaltimore-law-xml-codified.git"
+            ],
+            "custom": {
+                "preview":"git@github.com:oll-demo-repos/cityofbaltimore-law-xml-codified-preview.git",
+                "type":"xml-codified",
+                "serve":"historical",
+                "serve-prefix":"_xml"
+            }
+        },
+        "openlawlibrary/law-static-assets": {
+            "urls": [
+                "https://github.com/oll-test-repos/openlawlibrary-law-static-assets.git"
+            ],
+            "custom": {
+                "type":"static-assets",
+                "allow-unauthenticated-commits":true,
+                "serve":"latest",
+                "location_regex":"~.+(_document|_reader).+$"
+            }
+        }
+    }
+}
